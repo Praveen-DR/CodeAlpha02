@@ -1,1 +1,3 @@
-# CodeAlpha02
+# Stock Portfolio Tracker
+
+The provided code implements a basic stock portfolio tracking web application using Flask, SQLAlchemy, and Alpha Vantage API. The application allows users to add and remove stocks from their portfolio and view the current list of stocks. When a user adds a stock, the application fetches real-time data from the Alpha Vantage API to validate the stock symbol and store it in an SQLite database. The main interface, rendered using an HTML template, displays the portfolio with options to remove individual stocks. The Flask framework handles routing and web server functions, while SQLAlchemy manages database interactions. This setup provides a simple yet functional interface for managing and tracking stock investments.
